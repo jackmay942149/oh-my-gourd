@@ -1,6 +1,7 @@
 package main
 
 import ctn "../the-carton"
+import omg "./scripts"
 
 enviro_fbx := #load("./assets/models/OMG_RenderEnv-Scene25-10-20.fbx")
 
@@ -18,7 +19,8 @@ main :: proc() {
 	cam := ctn.Camera {
 		position = {0, 0, -5},
 		look_at_position = {0, -1.5, 0},
-		rotation_order = .YXZ
+		rotation_order = .YXZ,
+		update = omg.camera_update,
 	}
 
 	scene := ctn.Scene {
