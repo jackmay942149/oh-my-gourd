@@ -1,0 +1,16 @@
+{
+  entities: [
+	{
+      name: "cube",
+	  position: [0, 0, 0],
+	  mesh: {
+		name: "cube_mesh",
+        path: "./assets/models/OMG_RenderEnv-Scene25-10-20.fbx",
+        material: {
+          vert: "../project-lilypad/assets/shaders/default.vert",
+          frag: "../project-lilypad/assets/shaders/normal.frag",
+        }
+	  }
+	}
+  ]
+}
