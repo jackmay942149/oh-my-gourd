@@ -1,29 +1,69 @@
 {
   entities: [
-	{
-      name: "environment",
-	  position: [0, 0, 0],
-	  mesh: {
-		name: "enviro_mesh",
-        path: "./assets/models/OMG_RenderEnv-Scene25-10-20.fbx",
-        material: {
-          vert: "../project-lilypad/assets/shaders/default.vert",
-          frag: "../project-lilypad/assets/shaders/normal.frag",
-        }
-	  }
-	},
-	{
-      name: "cube",
-	  position: [10, 0, 0],
-	  mesh: {
-		name: "cube_mesh",
+  {
+    name: "environment",
+    position: [0, 0, 0],
+    scale: [1, 1, 1],
+    mesh: {
+    name: "enviro_mesh",
+      path: "./assets/models/OMG_RenderEnv-Scene25-10-20.fbx",
+      material: {
+        vert: "../project-lilypad/assets/shaders/default.vert",
+        frag: "../project-lilypad/assets/shaders/normal.frag",
+      }
+    }
+  },
+  {
+    name: "light_1",
+    position: [10, 2, 0],
+    scale: [0.1, 0.1, 0.1],
+    mesh: {
+    name: "cube_mesh",
         path: "./assets/models/cube.fbx",
         material: {
           vert: "../project-lilypad/assets/shaders/default.vert",
           frag: "./assets/shaders/light.frag",
         }
-	  }
-	},
-	
+    }
+  },
+  {
+    name: "light_2",
+    position: [-10, 2, 0],
+    scale: [0.1, 0.1, 0.1],
+    mesh: {
+    name: "cube_mesh",
+        path: "./assets/models/cube.fbx",
+        material: {
+          vert: "../project-lilypad/assets/shaders/default.vert",
+          frag: "./assets/shaders/light.frag",
+        }
+    }
+  },
+  {
+    name: "light_3",
+    position: [0, 2, 10],
+    scale: [0.1, 0.1, 0.1],
+    mesh: {
+    name: "cube_mesh",
+        path: "./assets/models/cube.fbx",
+        material: {
+          vert: "../project-lilypad/assets/shaders/default.vert",
+          frag: "./assets/shaders/light.frag",
+        }
+    }
+  },
+  {
+    name: "light_4",
+    position: [0, 2, -10],
+    scale: [0.1, 0.1, 0.1],
+    mesh: {
+    name: "cube_mesh",
+        path: "./assets/models/cube.fbx",
+        material: {
+          vert: "../project-lilypad/assets/shaders/default.vert",
+          frag: "./assets/shaders/light.frag",
+        }
+    }
+  },
   ]
 }
