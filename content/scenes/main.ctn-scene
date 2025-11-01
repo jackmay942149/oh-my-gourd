@@ -8,8 +8,8 @@
     name: "enviro_mesh",
       path: "./assets/models/OMG_RenderEnv-Scene25-10-20.fbx",
       material: {
-        vert: "../project-lilypad/assets/shaders/default.vert",
-        frag: "../project-lilypad/assets/shaders/normal.frag",
+        vert: "./assets/shaders/default.vert",
+        frag: "./assets/shaders/enviro.frag",
       }
     }
   },
@@ -21,7 +21,7 @@
     name: "cube_mesh",
         path: "./assets/models/cube.fbx",
         material: {
-          vert: "../project-lilypad/assets/shaders/default.vert",
+          vert: "./assets/shaders/default.vert",
           frag: "./assets/shaders/light.frag",
         }
     }
@@ -34,7 +34,7 @@
     name: "cube_mesh",
         path: "./assets/models/cube.fbx",
         material: {
-          vert: "../project-lilypad/assets/shaders/default.vert",
+          vert: "./assets/shaders/default.vert",
           frag: "./assets/shaders/light.frag",
         }
     }
@@ -47,7 +47,7 @@
     name: "cube_mesh",
         path: "./assets/models/cube.fbx",
         material: {
-          vert: "../project-lilypad/assets/shaders/default.vert",
+          vert: "./assets/shaders/default.vert",
           frag: "./assets/shaders/light.frag",
         }
     }
@@ -60,7 +60,7 @@
     name: "cube_mesh",
         path: "./assets/models/cube.fbx",
         material: {
-          vert: "../project-lilypad/assets/shaders/default.vert",
+          vert: "./assets/shaders/default.vert",
           frag: "./assets/shaders/light.frag",
         }
     }
